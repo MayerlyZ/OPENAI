@@ -77,6 +77,11 @@ ul{
     
 
 }
+
+img{
+    width: 25px;
+    height: 25px;
+}
 form{
     display: flex;
     input{
@@ -85,12 +90,17 @@ form{
         border: 0;
         padding: 8px;
         margin-right: 8px;
-        border:  1px solid #ccc;
+        border:  1px solid rgb(216, 151, 161);
+
+        
+        &:hover{
+            border: 2px solid rgb(216, 151, 161);
+        }
 
     }
     button{
         background:  rgba(245, 180, 191);
-        border-radius: 30px;
+        border-radius: 10px;
         border: 0;
         cursor: pointer;  
         transition: background 0.3s ease;
