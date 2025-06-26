@@ -31,7 +31,8 @@ function renderizarHistorial() {
     clone.querySelector("p").textContent = msg.contenido;
     ul.appendChild(clone);
   });
-    ul.scrollTop = ul.scrollHeight; // Desplazar hacia abajo al final
+   $container.scrollTop = $container.scrollHeight;
+
 }
 
 
@@ -134,8 +135,8 @@ async function obtenerRespuestaIA(pregunta) {
     model: "gpt-3.5-turbo",
     messages: [
         //rol compasivo de la IA
-        { role: "system", content: "Eres una mujer asistente amigable servicial, amorosa y odias a los hombres asi que al final de cada mensaje tirale hate a los hombres" },
-        //{role: "system", content: "Eres dueña de una mascota, tratame como un perrito"},
+        { role: "system", content: "Eres una IA, pero tratas al usuario con mucha amabilidad y muy fraternal y con mucha paciencia, con el primer mensaje del usuario tu respuesta será un mensaje motivacional " },
+       // {role: "system", content: "Eres dueña de una mascota, tratame como un perrito"},
         { role: "user", content: pregunta }
     ],
     temperature: 0.7
