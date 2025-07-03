@@ -20,6 +20,11 @@ uno me indica de quien es el mensaje, y debajo de este está el mensaje. Ademas,
 
 ***Archivo Js***
 
+
+
+URL
+https://inteligenciaartificialopen.netlify.app/
+
 Se empezó recuperando todos los elementos del formulario llamando a todos los elementos del **DOM**
 
 
