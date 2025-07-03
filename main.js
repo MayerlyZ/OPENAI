@@ -151,7 +151,7 @@ async function enviarMensaje(textoUsuario) {
 async function obtenerRespuestaIA(pregunta) {
    
 
-  const endpoint = " https://openai-lzjy.onrender.com/chat";
+  const endpoint = "https://openai-br26.onrender.com/chat";
   const headers = {"Content-Type": "application/json"};
 
   const data = {
